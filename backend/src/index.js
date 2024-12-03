@@ -24,6 +24,5 @@ const upload = multer({
 app.listen(process.env.PORT, '0.0.0.0',  () =>
   console.log(`NFL App listening on port ${process.env.PORT}!`),
 );
-
 // connectDb().then(async () => {
 // });

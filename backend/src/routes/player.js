@@ -6,7 +6,6 @@ import Player from '../models/player';
 
 const router = Router();
 
-  
 router.get('/', async (req, res) => {
     return res.send({ state: "success" });
 });
